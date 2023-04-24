@@ -8,6 +8,8 @@ public class ExceptionTryCatch {
 	}
 public void multiplication() {
 	System.out.println(a*b);
+      System.out.println(a+b);
+
 }
 public void division() {
 	try {
