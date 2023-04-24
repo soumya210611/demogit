@@ -15,6 +15,7 @@ public void division() {
 	try {
 	System.out.println(a/b);
 	System.out.println(a/0);
+		System.out.println("division");
 	}
 	catch (ArithmeticException ae) {
 		System.out.println(ae.getMessage());
